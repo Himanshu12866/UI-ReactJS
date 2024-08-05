@@ -1,0 +1,47 @@
+.shade {
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)),
+      url("../images/netflixback.jpg");
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    font-size: 50px;
+    color: red;
+  }
+  .input-group {
+    background-color: transparent !important;
+  }
+  .form-control,
+  .input-group-text {
+    background-color: transparent !important;
+    color: white;
+  }
+  main {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+  }
+  h1,
+  h4,
+  p {
+    color: white;
+  }
+  select,
+  input {
+    color: white !important;
+  }
+  option {
+    color: black !important;
+  }
+  button {
+    background-color: red !important;
+    color: white !important;
+  }
+  ::placeholder {
+    color: white !important;
+  }

@@ -2,7 +2,7 @@
 function NetflixHeader() {
     return (
         <div className="d-flex m-3 ms-5 ps-5 justify-content-between align-items-center">
-            <div className="title">NETFLIX</div>
+            <div className="title fw-bold">NETFLIX</div>
             <div className="me-5">
                 <div className="input-group">
                     <span className="bi bi-translate input-group-text"></span>
