@@ -25,7 +25,7 @@ function Netflixlogin() {
         <div className="text-center">
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
             <div className="d-flex justify-content-center align-items-center">
-                <input className="form-control w-50 p-3"></input>
+                <input className="form-control w-50 p-3" placeholder="Email Address"></input>
                 <button className="btn fw-bold ms-1 p-3"> Get Started <span className="bi bi-chevron-right"></span></button>
 
             </div>
