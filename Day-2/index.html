@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day-2 | React | Created a Netflix Home Page using React Components</title>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Day-2 | React | Creating a Netflix Home Page using React Components
+    </title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="../node_modules/react/umd/react.development.js"></script>
     <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
     <script src="../node_modules/@babel/standalone/babel.js"></script>
-</head>
-<body>
+    <style>
+      .shade {
+        background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)),
+          url("../images/netflixback.jpg");
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+      }
+      .title{
+        font-size: 50px;
+        color: red;
+      }
+  
+    </style>
+    <script type="text/jsx" src="script.js"></script>
+  </head>
+  <body>
     <noscript>Please Enable JavaScript on your Browser</noscript>
-    <div id="root">
-
-    </div>
-    
-</body>
+    <div id="root"></div>
+  </body>
 </html>
