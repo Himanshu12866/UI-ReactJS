@@ -52,7 +52,7 @@ function NetflixIndex() {
     return (
         <div className="shade">
             <NetflixHeader />
-            <NetflixMain />
+            <NetflixMain />         
         </div>
     )
 }
